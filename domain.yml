@@ -1,0 +1,218 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
+intents:
+- start_district_form
+- happy_feeling
+- action_menu
+- info
+- action_map_redirect_1
+- action_map_redirect_2
+- action_map_redirect_3
+- action_map_redirect_4
+- action_map_redirect_5
+- action_map_redirect_6
+- action_map_redirect_7
+- action_map_redirect_8
+- action_map_redirect_9
+- action_map_redirect_10
+- action_map_redirect_11
+- action_map_redirect_12
+- action_map_redirect_13
+- action_map_redirect_14
+- action_map_redirect_15
+- action_map_redirect_16
+- action_map_redirect_17
+- action_map_redirect_18
+- action_map_redirect_19
+- action_map_redirect_20
+- action_social_media
+- action_medicine_store
+- action_oxygen
+- action_ambulance
+- action_hospital_bed
+- action_icu_bed
+- action_general_bed
+- action_contact_hospital
+- action_preventive_medicines
+- action_hello_world
+- action_support
+- action_ask_doctor
+- start_form
+- affirm
+- goodbye
+- deny
+- explain
+- greet
+- next_step
+- thank
+- bot_challenge
+- testing
+- explore_products
+- customer_review
+- register_complain
+- cart
+- track_order
+- create_customer
+- chitchat
+- faq
+- resend_otp
+- change_number
+- chitchat/ask_isbot
+- chitchat/ask_whoisit
+- chitchat/ask_ishuman
+- chitchat/handleinsult
+- react_negative
+- chitchat/telljoke
+- canthelp
+- chitchat/ask_howdoing
+- chitchat/nicetomeetyou
+- chitchat/ask_weather
+- chitchat/ask_whatismyname
+- chitchat/ask_howold
+- react_positive
+- chitchat/ask_whoami
+- chitchat/ask_wherefrom
+- mood_great
+- mood_unhappy
+- chitchat/ask_builder
+- chitchat/ask_whatspossible
+- chitchat/ask_time
+- chitchat/ask_languagesbot
+- phone_number
+- faq/ask_free_shipping
+- faq/ask_delivery_time
+- faq/ask_tracking
+- faq/ask_cancel_order
+- faq/ask_refund
+- faq/ask_payment_method
+- faq/coupon
+- faq/affiliate_program_sign_up
+- faq/forgot_password
+- faq/ask_is_registration_required
+- faq/returns
+
+slots:
+  email:
+    type: text
+  name:
+    type: text
+  phone_number:
+    type: text
+  district:
+    type: text
+
+responses:
+  utter_bot_image:
+  - text: Anti Covid Bot
+    image: "https://phil.cdc.gov//PHIL_Images/23312/23312_lores.jpg"
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by DolphinChat.
+  utter_restart:
+  - text: Conversation Restarted!
+  utter_ask_phone_number:
+  - text: Please tell me your phone number.
+  utter_ask_again_phone_number:
+  - text: Please mention phone number in this format<br>*+918888888888*
+  utter_ask_email:
+  - text: May I know your email please.
+  utter_ask_again_email:
+  - text: I am unable yo validate this email address, can you tell your email again.
+  utter_ask_name:
+  - text: May I know your good name?
+  utter_ask_again_name:
+  - text: Sorry I didn't get your name can you please repeat.
+  utter_howdoing:
+  - text: I am fine, thanks for asking.
+  utter_ask_otp:
+  - text: We have send you an OTP for verification. Please enter the OTP.
+  utter_start_form:
+  - text: Okay, we will need few information so that we can get in touch with you as soon as possible.
+  utter_affirm:
+  - text: Cool..
+  utter_deny:
+  - text: Okay no worries.
+  utter_mood_great:
+  - text: really good to know 😀.
+  utter_mood_unhappy:
+  - text: Hmmm. take a deep breath and relax. Everything will be alright.
+  utter_thank:
+  - text: You're most welcome ❤.
+  utter_ask_district:
+  - text: In which district you are looking for Bed information in Bihar?
+
+
+
+actions:
+- action_menu
+- action_medicine_store
+- action_map_redirect_1
+- action_map_redirect_2
+- action_map_redirect_3
+- action_map_redirect_4
+- action_map_redirect_5
+- action_map_redirect_6
+- action_map_redirect_7
+- action_map_redirect_8
+- action_map_redirect_9
+- action_map_redirect_10
+- action_map_redirect_11
+- action_map_redirect_12
+- action_map_redirect_13
+- action_map_redirect_14
+- action_map_redirect_15
+- action_map_redirect_16
+- action_map_redirect_17
+- action_map_redirect_18
+- action_map_redirect_19
+- action_map_redirect_20
+- action_oxygen
+- action_ambulance
+- action_hospital_bed
+- action_icu_bed
+- action_general_bed
+- action_contact_hospital
+- action_preventive_medicines
+- action_support
+- action_ask_doctor
+- action_social_media
+- action_fallback
+- action_hello_world
+- action_restart
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_restart
+- utter_ask_phone_number
+- utter_ask_again_phone_number
+- utter_ask_email
+- utter_ask_again_email
+- utter_ask_name
+- utter_ask_again_name
+- utter_howdoing
+- utter_ask_otp
+- respond_chitchat
+- respond_faq
+- utter_affirm
+- utter_deny
+- utter_mood_great
+- utter_mood_unhappy
+- utter_start_form
+- utter_bot_image
+forms:
+- form_contact_us
+- form_district

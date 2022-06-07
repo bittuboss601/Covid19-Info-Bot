@@ -1,0 +1,18 @@
+# This file contains the different endpoints your bot can use.
+
+action_endpoint:
+  url: "http://localhost:6002/webhook"
+
+#tracker_store:
+#  type: mongod
+#  url: mongodb://localhost:27017
+#  db: civilcopsbot
+#  collection: conversation
+
+#tracker_store:
+#    type: mongod
+#    url: ${MONGODB_URL}
+#    db: ${MONGODB_DB}
+#    collection: ${MONGODB_COLLECTION}
+#    username: ${MONGODB_USERNAME}
+#    password: ${MONGODB_PASSWORD}
